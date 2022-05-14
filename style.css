@@ -1,0 +1,27 @@
+body {
+  /* background-color: darkblue; */
+  background-color: #090979;
+  color: #79bcef;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.button {
+  width: 100px;
+  height: 50px;
+  border-radius: 20%;
+  color: #090979;
+  background-color: #47b0d7;
+  border-color: rgb(12, 42, 40);
+  font-weight: bold;
+}
+
+.hero-img {
+  display: block;
+  width: 300px;
+  margin-top: 20px;
+  border-radius: 20%;
+}
+
+.header-link {
+  color: #a7d0ef;
+}
