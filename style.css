@@ -3,9 +3,16 @@ body {
   background-color: #090979;
   color: #79bcef;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 42, 121, 1) 35%,
+    rgba(87, 172, 238, 1) 76%,
+    rgba(0, 212, 255, 1) 100%
+  );
 }
 
-.button {
+.butt {
   width: 100px;
   height: 50px;
   border-radius: 20%;
@@ -16,12 +23,30 @@ body {
 }
 
 .hero-img {
-  display: block;
-  width: 300px;
+  display: flex;
+  width: 600px;
   margin-top: 20px;
   border-radius: 20%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .header-link {
   color: #a7d0ef;
+}
+
+.text {
+  width: 550px;
+  color: #79bcef;
+}
+
+.new-size {
+  /* width: 700px; */
+  width: 40px;
+}
+
+.new-color {
+  /* color: #090979; */
+  color: tomato;
 }
